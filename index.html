@@ -18,9 +18,9 @@
 
   <!-- header design -->
   <header class="header">
-    <a href="#" class="logo">Anshika.</a>
+    <a href="#" class="logo">Anshika. <span class="animate" style="--i:1;"> </span></a>
 
-    <div class="bx bx-menu" id="menu-icon"></div>
+    <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
 
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
@@ -29,57 +29,69 @@
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
 
+      <span class="active-nav"></span>
+      <span class="animate" style="--i:2;"></span>
+
     </nav>
   </header>
 
   <!-- home section design-->
-   <section class="home" id="home">
+   <section class="home show-animate" id="home">
     <div class="home-content">
-      <h1>Hi, I'm <span>Anshika Choudhary</span></h1>
+      <h1>Hi, I'm <span>Anshika Choudhary</span><span class="animate" style="--i:2;"></span></h1>
       <div class="text-animate">
         <h3> A 19-year-old Girl</h3>
+        <span class="animate" style="--i:3;"></span>
       </div>
-      <p>Hello! I’m Anshika. I’m content and excited about the journey I’ve embarked on, from academic achievements to every other extra-curriculum activity. I thrive on pushing boundaries and helping others find their path. Here, you’ll find a glimpse of my work, experiences, and the passion driving me forward. Dive in and see how we can inspire and grow together!</p>
+      <p>Hello! I’m Anshika. I’m content and excited about the journey I’ve embarked on, from academic achievements to every other extra-curriculum activity. I thrive on pushing boundaries and helping others find their path. Here, you’ll find a glimpse of my work, experiences, and the passion driving me forward. Dive in and see how we can inspire and grow together!
+        <span class="animate" style="--i:4;"></span>
+      </p>
 
       <div class="btn-box">
-        <a href="#" class="btn">Know More</a>
-        <a href="#" class="btn">Let's Talk</a>
+        <a href="#" class="btn" id="knowMore1">Know More</a>
+        <a href="#" class="btn" id="letsTalk">Let's Talk</a>
+        <span class="animate" style="--i:5;"></span>
       </div>
     </div>
 
     <div class="home-sci">
-      <a href="#"><i class="bx bxl-whatsapp"></i> </a>
-      <a href="#"><i class="bx bxl-instagram"></i> </a>
-      <a href="#"><i class="bx bxl-linkedin"></i> </a>
+      <a href="https://wa.me/919310606797?text=Hello%20there!"><i class="bx bxl-whatsapp"></i> </a>
+      <a href="https://www.instagram.com/realizingsometruth/"><i class="bx bxl-instagram"></i> </a>
+      <a href="https://www.linkedin.com/in/anshika-choudhary-065057310/"><i class="bx bxl-linkedin"></i> </a>
+      <span class="animate" style="--i:6;"></span>
     </div>
 
     <div class="home-imgHover"></div>
+    <span class="animate home-img" style="--i:7;"></span>
    </section>
 
    <!-- about section design-->
     <section class="about" id="about">
-      <h2 class="heading">About <span>Me</span></h2>
+      <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
 
       <div class="about-img">
         <img src="images/about.png" alt="">
         <span class="circle-spin"></span>
+        <span class="animate scroll" style="--i:2;"></span>
       </div>
 
       <div class="about-content">
-        <h3> Aspiring Frontend Developer</h3>
-        <p>Hello! I'm Anshika, an aspiring front-end developer with a passion for creating beautiful and user-friendly web experiences. I have a strong foundation in HTML and CSS and am dedicated to constantly improving my skills. I love bringing ideas to life through clean, efficient, and engaging code. My journey in web development is driven by a genuine interest in how technology can enhance everyday life. I'm excited to keep learning, growing, and contributing to projects that make a difference.</p>
+        <h3> Aspiring Web Developer<span class="animate scroll" style="--i:3;"></span></h3>
+        <p>Hello! I'm Anshika, an aspiring front-end developer with a passion for creating beautiful and user-friendly web experiences. I have a strong foundation in HTML and CSS and am dedicated to constantly improving my skills. I love bringing ideas to life through clean, efficient, and engaging code. My journey in web development is driven by a genuine interest in how technology can enhance everyday life. I'm excited to keep learning, growing, and contributing to projects that make a difference.<span class="animate scroll" style="--i:4;"></span></p>
 
         <div class="btn-box">
-          <a href="#" class="btn">Read More</a>
+          <a href="#" class="btn" id="knowMore2">Read More</a>
+          <span class="animate scroll" style="--i:5;"></span>
         </div>
       </div>
     </section>
 
     <!-- education section design-->
     <section class="education" id="education">
+      <div class="book" id="book">
     <div class="wrapper">
       <div class="cover cover-left"></div>
-      <div class="cover cover-right turn"></div>
+      <div class="cover cover-right "></div>
 
       <div class="book">
         <!-- profile page -->
@@ -92,7 +104,7 @@
             <p>Let's explore my educational journey and see how it has shaped my path towards academic excellence and personal growth.</p>
 
             <div class="button-box">
-              <a href="#" class="button">Download Credentials</a>
+              <a href="documents/credentials.pdf" class="button" download="Anshika_Choudhary.pdf">Download Credentials</a>
               <a href="#" class="button comment">Comment</a>
             </div>
           </div>
@@ -203,26 +215,35 @@
               <div class="artworks-box">
                 <div class="artworks-content" id="item1">
                   
-                  <h3 class="button">Mandala Art</h3>
+                  <h3> <a href="images/art1.jpg"class="button" download="Mandala_Art.jpg">Mandala Art</a> </h3>
                   <p>With Ink Colors</p>
                 </div>
 
                 <div class="artworks-content" id="item2">
+                  <h3> <a href="images/art3.jpg"class="button" download="Figurative.jpg">Figurative</a> </h3>
                   
-                  <h3 class="button">Figurative</h3>
                   <p>With Water Colors</p>
                 </div>
 
                 <div class="artworks-content" id="item3">
+                  <h3> <a href="images/art4.jpg"class="button" download="Still_Life.jpg">Still Life</a> </h3>
                   
-                  <h3 class="button">Still Life</h3>
                   <p>With Shading Pencils</p>
                 </div>
 
                 <div class="artworks-content" id="item4">
-                  
-                  <h3 class="button">Poster</h3>
+                  <h3> <a href="images/art2.jpg"class="button" download="Poster.jpg">Poster</a> </h3>
                   <p>With Poster Colors</p>
+                </div>
+
+                <div class="artworks-content" id="item5">
+                  <h3> <a href="images/art5.png"class="button" download="Portrait.png">Portrait</a> </h3>
+                  <p>With Charcoal</p>
+                </div>
+
+                <div class="artworks-content" id="item6">
+                  <h3> <a href="images/art6.png"class="button" download="Portrait.png">Portrait</a> </h3>
+                  <p>With Oil Colors</p>
                 </div>
               </div>
 
@@ -234,12 +255,15 @@
                 <i class="bx bx-chevron-right"></i>
                </span>
              </div>
+
+
              <!-- page 4 (my awards )-->
              <div class="page-back">
               <h1 class="title">My Awards</h1>
 
               <div class="awards-box">
                 <div class="awards-content">
+                  <h3>Academic Excellence Awards</h3>
                   <div class="content">
                     <span><img src="images/award1.png" alt=""><h4>2012-13</h4></span>
 
@@ -280,10 +304,8 @@
               <div class="portfolio-box">
                 <div class="img-box">
                   <img src="images/latestproject.png" alt="">
-
                 </div>
                 
-
                 <div class="info-box">
                   <div class="info-title">
                     <h3>Analog Clock</h3>
@@ -294,7 +316,7 @@
                 </div>
   
                 <div class="button-box">
-                  <a href="#" class="button">Source Code</a>
+                  <a href="https://github.com/anshika0704/analog-clock" class="button">Source Code</a>
 
                   <a href="#" class="button">More Projects</a>
                 </div>
@@ -320,7 +342,7 @@
               <div class="comment-box">
                 <form action="#">
                   <input type="text" class="field" placeholder="Full Name" required>
-                  <input type="text" class="field" placeholder="Email Address" required>
+                  <input type="email" class="field" placeholder="Email Address" required>
                   <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Comment" required></textarea>
                   <input type="submit" class="button" value="Send Comment">
 
@@ -347,7 +369,134 @@
 
       </div>
     </div>
+  </div>
   </section>
+
+  <!-- skills section design-->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="skills-row">
+      <div class="skills-column">
+        <h3 class="title">Hard Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+        <div class="skills-box">
+          <div class="skills-content">
+            <div class="progress">
+              <h3>HTML <span>90%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>CSS <span>80%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>JavaScript <span>65%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>C <span>75%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+          </div>
+          <span class="animate scroll" style="--i:3;"></span>
+        </div>
+      </div>
+
+      <div class="skills-column">
+        <h3 class="title">Soft Skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+        <div class="skills-box">
+          <div class="skills-content">
+            <div class="progress">
+              <h3>Communication <span>80%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>Adaptability <span>95%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>Time Management <span>80%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+              <h3>Creativity <span>75%</span></h3>
+              <div class="bar"><span></span></div>
+            </div>
+          </div>
+          <span class="animate scroll" style="--i:6;"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section design-->
+   <section class="contact" id="contact">
+    <h2 class="heading">
+      Contact <span>Me!</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+      <form action="#">
+        <div class="inputt-box">
+          <div class="inputt-field">
+            <input type="text" placeholder="Full Name" required>
+            <span class="focus"></span>
+          </div>
+
+          <div class="inputt-field">
+            <input type="email" placeholder="Email Address" required>
+            <span class="focus"></span>
+          </div>
+
+          <span class="animate scroll" style="--i:3;"></span>
+        </div>
+
+        <div class="inputt-box">
+          <div class="inputt-field">
+            <input type="number" placeholder="Mobile Number" required>
+            <span class="focus"></span>
+          </div>
+
+          <div class="inputt-field">
+            <input type="email" placeholder="Email Subject" required>
+            <span class="focus"></span>
+          </div>
+
+          <span class="animate scroll" style="--i:5;"></span>
+        </div>
+
+        <div class="textareaa-field">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <span class="focus"></span>
+          <span class="animate scroll" style="--i:7;"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Submit</button>
+          <span class="animate scroll" style="--i:9;"></span>
+        </div>
+      </form>
+    
+   </section>
+
+   <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Anshika | All Rights Reserved.</p>
+        <span class="animate scroll" style="--i:1;"></span>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        <span class="animate scroll" style="--i:3;"></span>
+      </div>
+    </footer>
 
   <script src="script.js"></script>
   
